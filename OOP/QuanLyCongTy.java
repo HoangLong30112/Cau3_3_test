@@ -45,13 +45,24 @@ public class QuanLyCongTy {
         for(NhanVien nhanvien : dsNhanVien){
             if (nhanvien.getMaNhanVien().equals(maNhanVien)){
                 dsNhanVien.remove(nhanvien);
-                System.out.println("XÓA NHÂN VIÊN VỚI MÃ: " + maNhanVien + " THÀNH CÔNG");
-                break;
-            }else {
-                System.out.println("XÓA NHÂN VIÊN KHÔNG THÀNH CÔNG");
-                break;
+                System.out.println("XÓA NHÂN VIÊN VỚI MÃ " + maNhanVien + " THÀNH CÔNG");
+                return;
             }
         }
+        System.out.println("XÓA NHÂN VIÊN VỚI MÃ " + maNhanVien + " KHÔNG THÀNH CÔNG");
+    }
+
+    //Them chuc nang xoa phong ban
+    public void xoaPhongBan(String maPhongBan){
+        for (PhongBan phongBan : dsPhongBan) {
+            if (phongBan.getMaPhong().equals(maPhongBan)) {
+                dsPhongBan.remove(phongBan);
+                System.out.println("XÓA PHÒNG BAN VỚI MÃ " + maPhongBan + " THÀNH CÔNG");
+                return;
+            }
+        }
+        System.out.println("XÓA PHÒNG BAN VỚI MÃ "+ maPhongBan +" KHÔNG THÀNH CÔNG");
+        System.out.println("Sua doan code nay de test");
     }
 
     //Them chuc nang xoa phong ban

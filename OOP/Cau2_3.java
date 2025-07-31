@@ -29,6 +29,10 @@ class Cau2_3{
 
         System.out.println("");
         quanlyCongTy.xoaNhanVien("KH001");
+        quanlyCongTy.xoaPhongBan("PdB02");
+
+        System.out.println("");
         quanlyCongTy.hienthiDanhSachNhanVien();
+        quanlyCongTy.hienthiDanhSachPhongBan();
     }
 }
