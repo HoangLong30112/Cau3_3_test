@@ -1,3 +1,5 @@
+package working_company.Cau3_3_test.OOP;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,8 +40,19 @@ public class QuanLyCongTy {
         }
     }
 
-
     //Them chuc nang xoa nhan vien
+    public void xoaNhanVien(String maNhanVien){
+        for(NhanVien nhanvien : dsNhanVien){
+            if (nhanvien.getMaNhanVien().equals(maNhanVien)){
+                dsNhanVien.remove(nhanvien);
+                System.out.println("XÓA NHÂN VIÊN VỚI MÃ: " + maNhanVien + " THÀNH CÔNG");
+                break;
+            }else {
+                System.out.println("XÓA NHÂN VIÊN KHÔNG THÀNH CÔNG");
+                break;
+            }
+        }
+    }
 
     public void hienthiDanhSachPhongBan(){
         System.out.println("======DANH SÁCH PHÒNG BAN======");
