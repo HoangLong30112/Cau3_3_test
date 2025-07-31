@@ -56,6 +56,8 @@ public class QuanLyCongTy {
 
     //Them chuc nang xoa phong ban
 
+    //Khong co gi ca commit choi
+
     public void hienthiDanhSachPhongBan(){
         System.out.println("======DANH SÁCH PHÒNG BAN======");
         for(PhongBan pb : dsPhongBan){
