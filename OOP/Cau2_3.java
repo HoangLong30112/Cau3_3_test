@@ -1,3 +1,5 @@
+package working_company.Cau3_3_test.OOP;
+
 class Cau2_3{
     public static void main(String[] args) {
         QuanLyCongTy quanlyCongTy = new QuanLyCongTy();
@@ -23,6 +25,10 @@ class Cau2_3{
         quanlyCongTy.tinhLuongThucNhan();
 
         System.out.println("");
+        quanlyCongTy.hienthiDanhSachNhanVien();
+
+        System.out.println("");
+        quanlyCongTy.xoaNhanVien("KH001");
         quanlyCongTy.hienthiDanhSachNhanVien();
     }
 }
