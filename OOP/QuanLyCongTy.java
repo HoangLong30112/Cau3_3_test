@@ -38,8 +38,9 @@ public class QuanLyCongTy {
         }
     }
 
-
     //Them chuc nang xoa nhan vien
+
+    //Them chuc nang xoa phong ban
 
     public void hienthiDanhSachPhongBan(){
         System.out.println("======DANH SÁCH PHÒNG BAN======");
