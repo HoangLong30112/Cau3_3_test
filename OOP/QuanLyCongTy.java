@@ -62,6 +62,7 @@ public class QuanLyCongTy {
             }
         }
         System.out.println("XÓA PHÒNG BAN VỚI MÃ "+ maPhongBan +" KHÔNG THÀNH CÔNG");
+        System.out.println("Sua doan code nay de test");
     }
 
     public void hienthiDanhSachPhongBan(){
